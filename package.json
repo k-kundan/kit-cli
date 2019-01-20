@@ -1,0 +1,37 @@
+{
+  "name": "kit-cli",
+  "version": "0.1.0",
+  "description": "An Interactive CLI Tool to generate variety of starter kits and production level project directories for software development. ",
+  "main": "index.js",
+  "bin": {
+    "kit": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyansh-zazz/kit-cli.git"
+  },
+  "keywords": [
+    "starter-kit",
+    "starter-kit-cli",
+    "project-generator",
+    "project-generator-cli",
+    "kit-cli",
+    "nodejs",
+    "neo4j",
+    "postgresql",
+    "microservices-architecture"
+  ],
+  "author": "Shreyansh Mehta <shrey.binary@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shreyansh-zazz/kit-cli/issues"
+  },
+  "homepage": "https://github.com/shreyansh-zazz/kit-cli#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.1"
+  }
+}
